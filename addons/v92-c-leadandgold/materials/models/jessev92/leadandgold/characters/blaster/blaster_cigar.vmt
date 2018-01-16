@@ -1,0 +1,29 @@
+
+VertexLitGeneric
+{
+
+	// Textures
+	
+	$basetexture models/jessev92/leadandgold/characters/blaster/blaster_red_d
+	$bumpmap models/jessev92/leadandgold/characters/blaster/blaster_b
+	$lightwarptexture dev/identitylightwarp
+
+	// Ambient Occlusion
+	
+	$halflambert 1
+	$ambientocclusion 1
+	
+	// Phong
+	
+	$phong 1
+	$phongboost 0.1
+	// $phongexponent 5
+	$phongexponenttexture models/jessev92/leadandgold/characters/blaster/blaster_x
+	$phongfresnelranges "[ 0 0.5 1 ]"
+
+	// Self-Illumination
+	
+	$selfillum 1
+	$selfillummask models/jessev92/leadandgold/characters/blaster/blaster_cigar_i
+	
+}

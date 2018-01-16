@@ -1,0 +1,16 @@
+
+VertexLitGeneric
+{
+
+	$basetexture			models/jessev92/leadandgold/characters/trapper_blue_d
+	$bumpmap				models/jessev92/leadandgold/characters/trapper_b
+
+	$halflambert			1
+	$ambientocclusion		1
+	
+	$phong					1
+	$phongboost				1.0
+	$phongexponent			5
+	$phongfresnelranges		"[ 0 0.5 1 ]"
+
+}

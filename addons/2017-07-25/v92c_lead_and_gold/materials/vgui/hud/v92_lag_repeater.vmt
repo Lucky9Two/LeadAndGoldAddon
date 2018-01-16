@@ -1,0 +1,10 @@
+
+UnlitGeneric
+{ 
+
+	$basetexture vgui/hud/v92_lag_repeater
+	$vertexcolor 1 
+	$vertexalpha 1 
+	$nolod 1
+
+} 

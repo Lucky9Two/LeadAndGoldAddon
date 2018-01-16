@@ -1,0 +1,21 @@
+
+VertexLitGeneric
+{
+
+	$basetexture			models/jessev92/leadandgold/weapons/repeater_d
+	$bumpmap				models/jessev92/leadandgold/weapons/repeater_b
+
+	$halflambert			1
+	$ambientocclusion		1
+	
+	$phong					1
+	$phongboost 0.3
+	$phongexponent			5
+	$phongfresnelranges		"[ 0 0.5 1 ]"
+
+	$detail					detail/metal_detail_01
+	$detailscale			3
+	$detailblendfactor		0.75
+	$detailblendmode		0
+	
+}

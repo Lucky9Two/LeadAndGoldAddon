@@ -1,0 +1,24 @@
+
+VertexLitGeneric
+{
+
+	// Textures
+	
+	$basetexture models/jessev92/leadandgold/characters/deputy/deputy_blue_d
+	$bumpmap models/jessev92/leadandgold/characters/deputy/deputy_b
+	$lightwarptexture dev/identitylightwarp
+
+	// Ambient Occlusion
+	
+	$halflambert 1
+	$ambientocclusion 1
+	
+	// Phong
+	
+	$phong 1
+	$phongboost 0.3
+	// $phongexponent 5
+	$phongexponenttexture models/jessev92/leadandgold/characters/deputy/deputy_x
+	$phongfresnelranges "[ 0 0.5 1 ]"
+
+}

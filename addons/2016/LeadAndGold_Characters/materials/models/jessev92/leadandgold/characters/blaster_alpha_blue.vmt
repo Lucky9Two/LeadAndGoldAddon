@@ -1,0 +1,18 @@
+
+VertexLitGeneric
+{
+
+	$basetexture			models/jessev92/leadandgold/characters/blaster_alpha_blue_d
+	$bumpmap				dev/bump_normal
+
+	$halflambert			1
+	$ambientocclusion		1
+	$alphatest				1
+	$allowalphatocoverage	1
+	
+	$phong					1
+	$phongboost				1.0
+	$phongexponent			5
+	$phongfresnelranges		"[ 0 0.5 1 ]"
+
+}

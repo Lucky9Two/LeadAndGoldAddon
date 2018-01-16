@@ -1,0 +1,14 @@
+{
+	"title"		:	"Enhanced Lead & Gold Characters",
+	"type"		:	"model",
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*",
+		"*.txt*",
+		"*.dua*",
+		"*.ztmp*",
+		"*.tga*"
+	]
+}

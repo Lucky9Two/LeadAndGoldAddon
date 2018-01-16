@@ -1,0 +1,28 @@
+
+VertexLitGeneric
+{
+
+	// Textures
+
+	$basetexture models/jessev92/leadandgold/characters/blaster/blaster_alpha_blue_d
+	$bumpmap dev/bump_normal
+	$lightwarptexture dev/identitylightwarp
+
+	// Ambient Occlusion
+	
+	$halflambert 1
+	$ambientocclusion 1
+	
+	// Translucency
+	
+	$alphatest 1
+	$allowalphatocoverage 1
+	
+	// Phong
+	
+	$phong 1
+	$phongboost 1.0
+	$phongexponent 5
+	$phongfresnelranges "[ 0 0.5 1 ]"
+
+}
