@@ -13,7 +13,7 @@ AddCSLuaFile()
 --	http://steamcommunity.com/sharedfiles/filedetails/?id=136077464
 --	Enhanced L&G Addon by V92
 --	https://steamcommunity.com/id/JesseVanover/
---	http://steamcommunity.com/sharedfiles/filedetails/?id=716463581
+--	
 -------------------------------------------------------
 -------------------------------------------------------
 
@@ -72,22 +72,22 @@ hook.Add( "PopulateToolMenu", "NPCGLaGToolMenu", NPCGLaGToolMenu)
 -------------------------------------------------------
 -------------------------------------------------------
 function AddPlayerModel( name, model )	player_manager.AddValidModel( name, model )	end
-function player_manager.AddValidHands( name, model, skin, bodygroup )	player_manager.AddValidHands( name, model, skin, bodygroup )	end
+function AddPlayerHands( name, model, skin, bodygroup )	player_manager.AddValidHands( name, model, skin, bodygroup )	end
 
 AddPlayerModel("L&G Blaster", "models/jessev92/leadandgold/characters/blaster_ply.mdl" )
-player_manager.AddValidHands( "L&G Blaster", "models/jessev92/leadandgold/weapons/arms_blaster.mdl", 0, "00000000" )
+AddPlayerHands( "L&G Blaster", "models/jessev92/leadandgold/weapons/arms_blaster.mdl", 0, "00000000" )
 list.Set( "PlayerOptionsAnimations", "L&G Blaster", 	{ "menu_combine" } )
 
 AddPlayerModel("L&G Deputy", "models/jessev92/leadandgold/characters/deputy_ply.mdl" )
-player_manager.AddValidHands( "L&G Deputy", "models/jessev92/leadandgold/weapons/arms_deputy.mdl", 0, "00000000" )
+AddPlayerHands( "L&G Deputy", "models/jessev92/leadandgold/weapons/arms_deputy.mdl", 0, "00000000" )
 list.Set( "PlayerOptionsAnimations", "L&G Deputy", 	{ "menu_combine" } )
 
 AddPlayerModel("L&G Gunslinger", "models/jessev92/leadandgold/characters/gunslinger_ply.mdl" )
-player_manager.AddValidHands( "L&G Gunslinger", "models/jessev92/leadandgold/weapons/arms_gunslinger.mdl", 0, "00000000" )
+AddPlayerHands( "L&G Gunslinger", "models/jessev92/leadandgold/weapons/arms_gunslinger.mdl", 0, "00000000" )
 list.Set( "PlayerOptionsAnimations", "L&G Gunslinger", 	{ "menu_combine" } )
 
 AddPlayerModel("L&G Trapper", "models/jessev92/leadandgold/characters/trapper_ply.mdl" )
-player_manager.AddValidHands( "L&G Trapper", "models/jessev92/leadandgold/weapons/arms_trapper.mdl", 0, "00000000" )
+AddPlayerHands( "L&G Trapper", "models/jessev92/leadandgold/weapons/arms_trapper.mdl", 0, "00000000" )
 list.Set( "PlayerOptionsAnimations", "L&G Trapper", 	{ "menu_combine" } )
 -------------------------------------------------------
 -------------------------------------------------------

@@ -10,7 +10,7 @@ ENT.Category		= "Test"
 ENT.Spawnable		= false
 ENT.AdminOnly		= false
 
-local	_WEP	=	{	"weapon_alyxgun"	}
+local	_WEP	=	{	"weapon_annabelle"	}
 local	_WEPGS	=	{	"weapon_pistol", "weapon_357"	}
 
 if SERVER then
